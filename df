@@ -1,0 +1,10 @@
+for uri, test_result in tests.items():
+    print " * ", uri, "... ",
+	if(uri=='/kv-record/test key=test value= val')
+		resp= requests.post('http POST :5000'+uri)
+		else if(uri=='/kv-record/test key=test value=newval')
+				resp = requests.put('http PUT :5000'+uri)
+			else if (uri == '/kv-record/bad key=bad value=val')
+					resp = requests.put('http PUT :5000'+uri)
+						else
+							resp = requests.get('http://localhost:5000'+uri)
